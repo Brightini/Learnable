@@ -1,5 +1,5 @@
 
-# Learnable Task Version Control
+# Learnable Task on Git and Version Control
 
 ## Version Control
 
@@ -32,7 +32,7 @@ Access Control | No built-in access control | Offers fine-grained access control
 
 `git fetch` and `git pull` are both Git commands that involve bringing changes from a remote repository to your local one, but they serve different purposes.
 
-Fetching retrieves any new changes from the remote repository to your local repository, but it doesn't automatically merge them into your working branch. After fetching, you need to explicitly merge the fetched changes using `git merge `or inspect them before merging. This allows you to review changes before incorporating them into your working branch.
+Fetching retrieves any new changes from the remote repository to your local repository, but it doesn't automatically merge them into your working branch. After fetching, you need to explicitly merge the fetched changes using `git merge` or inspect them before merging. This allows you to review changes before incorporating them into your working branch.
 
 Pulling, on the other hand, not only fetches the changes from the remote repository but also automatically merges them into your current working branch. It's a more automated command that fetches and merges in one step. This is convenient for scenarios where you want to quickly update your local branch with the changes from the remote.
 
